@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gym-application"
+    }
+  },
+  "defaultProject": "gym-application",
+  "cli": {
+    "analytics": "b917e874-a063-492e-b1e7-a9b6fc57940a"
+  }
 }

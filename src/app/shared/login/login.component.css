@@ -1,0 +1,17 @@
+
+.card{
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    border-style:none ;
+    box-shadow: 30px 10px 20px rgb(202, 202, 202);
+    
+}
+.t{
+    font-size: 46px;
+    font-family: cursive;
+}
+.form-control{
+    box-shadow: 10px 5px 5px rgb(202, 202, 202);
+
+}
