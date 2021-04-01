@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dmodule/dashboard/dashboard.component';
 import { HeaderComponent } from './dmodule/header/header.component';
+import { SidemenuComponent } from './dmodule/sidemenu/sidemenu.component';
+
 import { LoginComponent } from './shared/login/login.component';
 
 const routes: Routes = [
@@ -15,6 +17,10 @@ const routes: Routes = [
   {
     path:'header',
     component:HeaderComponent
+  }
+  {
+    path:'sidemenu',
+    component:SidemenuComponent
   }
   
 ];
