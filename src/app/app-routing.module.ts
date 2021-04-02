@@ -17,11 +17,11 @@ const routes: Routes = [
   {
     path:'header',
     component:HeaderComponent
-  }
+  },
   {
     path:'sidemenu',
     component:SidemenuComponent
-  }
+  },
   
 ];
 
