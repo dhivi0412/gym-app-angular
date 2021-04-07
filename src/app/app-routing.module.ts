@@ -1,16 +1,22 @@
-import { NgModule } from '@angular/core';
+
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dmodule/dashboard/dashboard.component';
 import { HeaderComponent } from './dmodule/header/header.component';
 import { SidemenuComponent } from './dmodule/sidemenu/sidemenu.component';
-
+import { RegisterComponent } from './dmodule/register/register.component';
 import { LoginComponent } from './shared/login/login.component';
 
 const routes: Routes = [
   {
     path:'',
     component:LoginComponent
-  },{
+  },
+  {
+    path:'register',
+    component:RegisterComponent
+  },
+  {
     path:'dashboard',
     component:DashboardComponent
   },
@@ -21,7 +27,8 @@ const routes: Routes = [
   {
     path:'sidemenu',
     component:SidemenuComponent
-  },
+  }
+  
   
 ];
 
